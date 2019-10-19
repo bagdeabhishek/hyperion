@@ -13,8 +13,8 @@
 	"device" :
 	{
 		"name"       : "MyHyperionConfig",
-		"type"       : "ws2801",
-		"output"     : "/dev/spidev0.0",
+		"type"       : "WS2812b",
+		"output"     : "/dev/S.usbmodem142101",
 		"rate"     : 1000000,
 		"colorOrder" : "rgb"
 	},

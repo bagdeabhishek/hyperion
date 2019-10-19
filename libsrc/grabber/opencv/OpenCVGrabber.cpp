@@ -10,8 +10,8 @@ OpenCVGrabber::OpenCVGrabber(int input, int width, int height)
     : _capture(input)
 {
     if (width && height) {
-        _capture.set(CV_CAP_PROP_FRAME_WIDTH, width);
-        _capture.set(CV_CAP_PROP_FRAME_HEIGHT, height);
+        _capture.set(cv::CAP_PROP_FRAME_WIDTH, width);
+        _capture.set(cv::CAP_PROP_FRAME_HEIGHT, height);
     }
 }
 
